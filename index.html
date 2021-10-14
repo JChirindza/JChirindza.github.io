@@ -77,7 +77,14 @@
 				</div>
 				<!-- menu end here -->
 				<div class="header-item item-right">
-					<a href="#"><i class="fas fa-search"></i></a>
+					<div class="row multi-language">
+						<div class="language-globe"><i class="fas fa-globe"></i></div>
+						<div class="language-link">
+							<a class="language-link-item active" style="padding: 0 10px;" href="?lang=en">En</a> | 
+							<a class="language-link-item" href="?lang=pt">Pt</a>
+						</div>
+					</div>
+
 					<!-- mobile menu trigger -->
 					<div class="mobile-menu-trigger">
 						<span></span>
@@ -97,7 +104,7 @@
 				<div class="left-column">
 					<img id="profile_pic" src="images/john.jpg">
 					<h4 style="text-align: center; line-height: 0;"><label>I'm a Web Developer</label></h4>
-					<p id="settings-note"><i class="fas fa-info-circle"></i> Theme settings will be saved for<br>your next vist</p>
+					<p id="settings-note"><i class="fas fa-info-circle"></i> Interested in web development</p>
 				</div>
 
 				<div class="right-column">
@@ -106,10 +113,7 @@
 							<div id="corner-tl" class="corner"></div>
 							<div id="corner-tr" class="corner"></div>
 							<h3>What I Do</h3>
-							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-								tempor incididunt ut labore et dolore magna aliqua. Ut enim ad min,
-								quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-							consequat.</p>
+							<p>A Fullstack Web Developer with experience in bulding, integranting, testing web applications. Creating backends with PHP or Node.js;</p>
 							<div id="corner-br" class="corner"></div>
 							<div id="corner-bl" class="corner"></div>
 						</div>
@@ -124,16 +128,19 @@
 			<h3 style="text-align: center;">MORE ABOUT ME</h3>
 			<div class="about-wrapper">
 				<div>
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmodtempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo.</p>
+					<p>I am a finalist for a Computer Engineering degree, .</p>
 
-					<p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, anim id est laborum.</p>
+					<p></p>
+
+					<p>When I'm not coding/working on some project, probably I'm learning more about the Web technologies, talking/writing about technology or exchanging impressions and experiences.</p>
 				</div>
 
 				<div class="about-me">
 
 					<div class="expertises">
 						<h4>Top expertise</h4>
-						<p>Fullstack web developer with focus on PHP + JavaScript: <a target="_blank" href="resume.pdf">Download Resume</a></p>
+						
+						<p>Here are a few technologies I’ve been working with recently:</p>
 
 						<div id="skills">
 							<ul>
@@ -164,15 +171,18 @@
 								<li>- MySQL</li>
 								<li>- AWS</li>
 								<li>- Heroku</li>
-								<li>- Git & Github</li>
+								
 							</ul>
 							
 							<ul>
-								<li>- Google Maps API</li>
-								<li>- JS Charts</li>
+								<li>- WordPress</li>
+								<li>- Git & Github</li>
 								
 							</ul>
 						</div>
+
+						<p>Nowadays focusing on PHP + JavaScript: <a target="_blank" href="resume.pdf">Download Resume</a></p>
+
 					</div>
 
 					<div class="find-me">
@@ -272,6 +282,12 @@
 			</div>
 		</div>
 	</section> 
+
+	<script type="text/javascript">
+		$.get("footer.html", function(data){
+			$("#footer").html(data);
+		});
+	</script>
 
 	<!-- Custom JS -->
 	<script type="text/javascript" src="custom/js/theme_script.js"></script>
