@@ -348,9 +348,8 @@ h6 { font-size: 16px;}
 .post-wrapper{
 	display: grid;
 	grid-template-columns: repeat(auto-fit, 320px);
-	gap:20px;
+	gap: 40px;
 	justify-content: center;
-	padding-bottom: 50px;
 }
 
 .post-wrapper .post{
@@ -392,6 +391,34 @@ h6 { font-size: 16px;}
 }
 .post .project-veiw a{
 	padding: 0 0 0 10px; 
+}
+
+.post-wrapper .post-tech label {
+	color: grey; 
+	padding: 0 5px;
+}
+
+.view-projects {
+	display: flex;
+	justify-content: center;
+}
+
+.view-projects .more-button {
+    color: var(--secondaryText);
+    background-color: var(--mainColor);
+    border: 1px solid var(--borderColor);
+    border-radius: 5px;
+    font-size: 13px;
+    line-height: 1;
+    text-decoration: none;
+    cursor: pointer;
+    padding: 0.8rem 2rem;
+    margin: 40px auto 0px;
+}
+
+.view-projects .more-button:hover {
+    color: var(--mainText);
+    background-color: var(--secondaryColor);
 }
 
 #contact-form{
@@ -595,6 +622,7 @@ h6 { font-size: 16px;}
 }
 .header .logo {
 	border: 1px solid var(--borderColor);
+	border-bottom: ;
 	text-align: center;
 }
 .header .logo a {
@@ -714,6 +742,7 @@ h6 { font-size: 16px;}
 
 .multi-language .language-link{
 	color: var(--mainText); 
+	font-weight: normal;
 }
 
 .multi-language .language-link .active{
@@ -732,6 +761,19 @@ h6 { font-size: 16px;}
 
 .multi-language .language-globe {
 	color: var(--secondaryText);
+	padding-right: 10px;
+}
+
+.multi-language .lang-selector {
+	background: transparent;
+	border: 1px solid var(--borderColor);
+	color: var(--mainText);
+	padding: 4px;
+	margin-top: 0;
+}
+
+.multi-language .lang-selector option {
+	color: var(--secondaryColor);
 }
 
 /*responsive*/
@@ -961,4 +1003,8 @@ h6 { font-size: 16px;}
 	-ms-flex: 0 0 50%;
 	flex: 0 0 50%;
 	max-width: 50%;
+}
+
+.d-none {
+	display: none;
 }
