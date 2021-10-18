@@ -404,26 +404,26 @@ h6 { font-size: 16px;}
 }
 
 .view-projects .more-button {
-    color: var(--secondaryText);
-    background-color: var(--mainColor);
-    border: 1px solid var(--borderColor);
-    border-radius: 5px;
-    font-size: 13px;
-    line-height: 1;
-    text-decoration: none;
-    cursor: pointer;
-    padding: 0.8rem 2rem;
-    margin: 40px auto 0px;
+	color: var(--secondaryText);
+	background-color: var(--mainColor);
+	border: 1px solid var(--borderColor);
+	border-radius: 5px;
+	font-size: 13px;
+	line-height: 1;
+	text-decoration: none;
+	cursor: pointer;
+	padding: 0.8rem 2rem;
+	margin: 40px auto 0px;
 }
 
 .view-projects .more-button:hover {
-    color: var(--mainText);
-    background-color: var(--secondaryColor);
+	color: var(--mainText);
+	background-color: var(--secondaryColor);
 }
 
 #contact-form{
 	display: block;
-	max-width: 600px;
+	max-width: 500px;
 	margin: 0 auto;
 	border: 1px solid var(--borderColor);
 	padding: 15px;
@@ -1003,6 +1003,40 @@ h6 { font-size: 16px;}
 	-ms-flex: 0 0 50%;
 	flex: 0 0 50%;
 	max-width: 50%;
+}
+
+#footer label {
+	font-size: 14px;
+}
+
+#footer span {
+	font-size: 12px;
+	color: gray;
+}
+
+#footer span a {
+	color: gray;
+}
+
+#footer span a:hover {
+	color: #17a2b8;
+}
+
+#footer .icons {
+	font-size: 14px; 
+	padding: 0; 
+	margin: 0;
+	justify-content: end;
+}
+
+#footer .find-me {
+	padding: 10px 25px 0 0; 
+	margin: 0;
+	justify-content: end;
+}
+
+#footer .find-me {
+	color: gray; font-size: 12px;
 }
 
 .d-none {
