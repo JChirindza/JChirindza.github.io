@@ -1,4 +1,4 @@
-let theme = localStorage.getItem('theme')
+let theme = localStorage.getItem('jchirindza-theme')
 
 if(theme == null){
 	setTheme('light')
@@ -34,5 +34,5 @@ function setTheme(mode){
 		document.getElementById('theme-style').href = 'custom/css/purple.css'
 	}
 
-	localStorage.setItem('theme', mode)
+	localStorage.setItem('jchirindza-theme', mode)
 }
