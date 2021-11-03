@@ -232,7 +232,7 @@ h6 { font-size: 16px;}
 }
 
 .theme-dot:hover{
-	border-width: 5px;
+	border-width: 1px;
 }
 
 #light-mode{
@@ -621,9 +621,11 @@ h6 { font-size: 16px;}
 	flex:0 0 20%;
 }
 .header .logo {
-	border: 1px solid var(--borderColor);
-	border-bottom: ;
 	text-align: center;
+}
+
+.header .logo:hover {
+	border: 1px solid var(--borderColor);
 }
 .header .logo a {
 	font-size: 30px;
