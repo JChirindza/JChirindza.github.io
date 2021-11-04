@@ -1,5 +1,5 @@
 # João Chirindza Personal Web Dev Portfolio
-![ReactJS Resume Website Template](images/jc_webpage.png?raw=true "ReactJS Resume Website Template")
+![Web Dev Portfolio](images/jc_webpage.png?raw=true "Web Dev Portfolio")
 Website <a href="https://JChirindza.github.io/">LIVE DEMO</a>
 
 ## Description
@@ -8,7 +8,6 @@ This is a personal site to show you a little bit about me and share my enthusias
 [6]: http://www.github.com/JChirindza
 
 ## Deploy
-
 First download [ZIP](https://github.com/JChirindza/JChirindza.github.io/archive/refs/heads/master.zip) file or [FORK](https://JChirindza.github.io/fork) this repository.
 
 Follow the step-by-step instructions to find out how to host on Github directly from your github repository <a href='https://pages.github.com/'>here.</a>
